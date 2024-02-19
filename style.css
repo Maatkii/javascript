@@ -1,0 +1,26 @@
+body {
+  background-color: #c0c19d;
+  place-items: center;
+  height: 100vh;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  height: 50px;
+  width: 120px;
+  color: blue;
+  background-attachment: fixed;
+  background-position: 100px;
+  background-color: rgb(130, 108, 108);
+}
+.price {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
